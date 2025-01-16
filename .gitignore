@@ -1,0 +1,47 @@
+# Unreal Engine项目相关忽略文件
+
+# 忽略用户配置文件
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# 忽略构建中间文件
+DerivedDataCache/
+Intermediate/
+Saved/
+*.log
+*.tlog
+*.obj
+*.pch
+*.pdb
+*.exe
+*.dll
+*.app
+*.dSYM
+*.ipa
+*.so
+*.dylib
+
+# 忽略构建产物
+Binaries/
+Build/
+
+# 忽略临时文件
+*.tmp
+*.bak
+*.swp
+*.sdf
+*.VC.db
+*.vscode/
+
+# 忽略MacOS文件
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 忽略Visual Studio Code配置
+.vscode/
+
+# 忽略其他文件
+Thumbs.db
